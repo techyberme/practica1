@@ -9,7 +9,7 @@ void setup() {
 }
 void loop() {
   estado = analogRead(A0); //leo la entrada
-  if (estado>100) {
+  if (estado>190) {
     digitalWrite(outPin, HIGH); //enciendo el LED
     tiempo1=millis();           //anoto cuando se ha pulsado
   } else {
