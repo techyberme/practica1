@@ -1,2 +1,2 @@
 # practica1
-practica1
+pra ct ica1
